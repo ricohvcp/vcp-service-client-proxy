@@ -1,0 +1,11 @@
+{
+  "name": "vcp-service-client-proxy",
+  "version": "0.0.0",
+  "description": "proxy support for vcp-service-client on node/io.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
