@@ -2,6 +2,9 @@
   "name": "vcp-service-client-proxy",
   "description": "proxy support for vcp-service-client on node/io.js",
   "version": "0.0.0",
+  "bugs": {
+    "url": "http://github.com/ricohvcp/vcp-service-client-proxy/issues"
+  },
   "dependencies": {
     "superagent": "^0.21.0",
     "superagent-proxy": "^0.3.1"
@@ -13,10 +16,16 @@
     "eslint-plugin-nodeca": "^1.0.3",
     "mocha": "^2.2.4"
   },
+  "homepage": "http://github.com/ricohvcp/vcp-service-client-proxy",
+  "keywords": [],
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricohvcp/vcp-service-client-proxy.git"
+  },
   "scripts": {
-    "test": "mocha",
-    "lint": "eslint -c .eslintrc index.js test/index.js"
+    "lint": "eslint -c .eslintrc index.js test/index.js",
+    "test": "mocha"
   }
 }
