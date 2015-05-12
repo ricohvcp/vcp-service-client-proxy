@@ -4,12 +4,15 @@
   "description": "proxy support for vcp-service-client on node/io.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "superagent": "^0.21.0",
     "superagent-proxy": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
   }
 }
