@@ -31,5 +31,5 @@ module.exports = function(setting) {
 
     req.url = URL.format(url);
     superagent_proxy(req, proxy_url);
-  }
-}
+  };
+};

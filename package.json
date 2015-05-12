@@ -1,18 +1,22 @@
 {
   "name": "vcp-service-client-proxy",
-  "version": "0.0.0",
   "description": "proxy support for vcp-service-client on node/io.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "author": "",
-  "license": "MIT",
+  "version": "0.0.0",
   "dependencies": {
     "superagent": "^0.21.0",
     "superagent-proxy": "^0.3.1"
   },
   "devDependencies": {
+    "eslint": "^0.21.0",
+    "eslint-plugin-arrow-function": "0.0.2",
+    "eslint-plugin-no-func-space": "0.0.4",
+    "eslint-plugin-nodeca": "^1.0.3",
     "mocha": "^2.2.4"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint -c .eslintrc index.js test/index.js"
   }
 }
