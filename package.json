@@ -6,15 +6,15 @@
     "url": "http://github.com/ricohvcp/vcp-service-client-proxy/issues"
   },
   "dependencies": {
-    "superagent": "^0.21.0",
-    "superagent-proxy": "^0.3.1"
+    "superagent": "^1.2.0",
+    "superagent-proxy": "^0.3.2"
   },
   "devDependencies": {
-    "eslint": "^0.21.0",
+    "eslint": "^0.21.2",
     "eslint-plugin-arrow-function": "0.0.2",
     "eslint-plugin-no-func-space": "0.0.4",
     "eslint-plugin-nodeca": "^1.0.3",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.5"
   },
   "homepage": "http://github.com/ricohvcp/vcp-service-client-proxy",
   "keywords": [],
