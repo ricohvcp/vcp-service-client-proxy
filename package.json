@@ -1,7 +1,7 @@
 {
   "name": "vcp-service-client-proxy",
   "description": "proxy support for vcp-service-client on node/io.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "bugs": {
     "url": "http://github.com/ricohvcp/vcp-service-client-proxy/issues"
   },
